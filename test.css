@@ -1,0 +1,147 @@
+header{
+    display: flex;
+    background: grey;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 6rem;
+    list-style-type: none;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    gap: 12rem;
+    height: 20rem;
+}
+
+.sub{
+    background: red;
+    color: white;
+    width: 30rem;
+    height: 10rem;
+}
+.sub1{
+    display: flex;
+    gap: 12rem;
+}
+
+/* here is the media querry */
+
+@media screen and (max-width: 1200px) {
+
+    /* navigation section  */
+    header{
+        display: grid;
+        background: grey;
+        gap: 3rem;
+        justify-content: start;
+        width: auto;
+    }
+    .nav ul{
+        display: grid;
+        gap: 3rem;
+        list-style-type: none;
+    }
+    /* end of nav section  */
+
+    .main{
+        display: grid;
+        /* justify-content: center;
+        align-items: center;
+        align-self: center;
+        align-content: center; */
+        gap: 6rem;
+        height: 40rem;
+    }
+    
+    .sub{
+        background: green;
+        color: white;
+        width: 10rem;
+        height: 10rem;
+    }
+    .sub1a{
+        width: 26rem;
+    }
+    .sub1{
+        display: flex;
+        gap: 6rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .main{
+        display: grid;
+        /* justify-content: center;
+        align-items: center;
+        align-self: center;
+        align-content: center; */
+        gap: 6rem;
+        height: 40rem;
+    }
+    
+    .sub{
+        background: blue;
+        color: white;
+        width: 6rem;
+        height: 6rem;
+    }
+    .sub1a{
+        width: 18rem;
+    }
+    .sub1{
+        display: flex;
+        gap: 6rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+        /* navigation section  */
+        header{
+            display: flex;
+            background: grey;
+            gap: 3rem;
+            justify-content: space-evenly;
+            width: auto;
+        }
+        .nav ul{
+            display: flex;
+            gap: 3rem;
+            list-style-type: none;
+        }
+        /* end of nav section  */
+    
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            align-content: center; 
+            gap: 6rem;
+            height: 12rem;
+        }
+        
+        .sub{
+            background: red;
+            color: white;
+            width: 26rem;
+            height: 10rem;
+        }
+        .sub1a{
+            width: 26rem;
+        }
+        .sub1{
+            display: flex;
+            gap: 6rem;
+            justify-content: center;
+        }
+}

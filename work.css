@@ -1,0 +1,336 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.heading{
+    display: flex;
+} */
+body{
+    background-color: rgb(248, 248, 248);
+
+} 
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px  rgb(226, 208, 208);
+
+}
+.goog{
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.goog-name{
+    display: flex;
+    align-items: center;
+    line-height: opx;
+}
+.ul-work{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.ul-work a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#select-option{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn-sales{
+    width: 130px;
+    height: 40px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    border: 1px solid azure;
+    border-radius: 3px;
+}
+#btn-start{
+    width: 130px;
+    height: 40px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 107, 139);
+    color: white;
+    border-radius: 3px;
+
+}
+/* FIRST SECTION ON THIS PAGE */
+.one-section{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(248, 248, 248);
+}
+.work2{
+    display: grid;
+}
+.email-img{
+    display: flex;
+    align-items: center;
+    margin: -32px;
+    
+}
+.gmailh2{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.first-big-font-p{
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-para{
+    line-height: 30px;
+    word-spacing: 5px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* THE SECOND SECTION STARTS HERE */
+.second-section-your-company{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    padding: 30px;
+}
+/* .company{
+    font-size: 24px;
+} */
+.company a{
+    text-decoration: none;
+}
+/* THE THIRD SECTION STARTS HERE */
+.third-section-robust{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* FOURTH SECTION STARTS HERE */
+.fourth-section-smart-suggestion{
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+/* FIFTH SECTION STARTS HERE */
+.fifth-threat{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second-para a{
+    text-decoration: none;
+}
+/* SIXTH SECTION STARTS HERE */
+.sixth-section-works{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.texxt1{
+    font-size: 30px;
+}
+.second-para1{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* SEVENTH SECTION STARTS HERE */
+.seventh{
+    display: grid;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.question-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+.question a{
+    text-decoration: none;
+}
+/* START TODAY SECTION */
+.start-easy{
+   padding-top: 50px;
+   padding-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#btn-start1{
+    display: grid;
+    justify-content: center;
+    
+}
+/* ANOTHER SECTION NAMED 'JOIN' STARTS HERE */
+.join{
+    margin-top: 6rem;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.form-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.input-email{
+    width: 300px;
+    height: 50px;
+    border: 3px solid rgb(170, 179, 187);
+    background-color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#select{
+    width: 300px;
+    height: 50px;
+    border: 3px solid rgb(170, 179, 187);
+    background-color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox-paragraphs{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .checkbox{
+    
+} */
+.alone-p{
+    
+    padding: 10px;
+    margin-top: 40px;
+}
+.alone-paragragh{
+    display: flex;
+    text-align: start;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alone-paragragh a{
+    text-decoration: none;
+}
+.btnb{
+    margin-right: -35rem;
+}
+#signUp{
+    /* display: flex;
+    justify-content: center; */
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(199, 213, 225);
+    outline: none;
+    background: white;
+
+}
+/* FOOTER STARTS HERE */
+.the-footer{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.our-blog{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+#fafaSearch{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fafafa{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid white;
+}
+/* ANOTHER SECTION ON THE FOOTER BEGINS HERE */
+.mainFooter{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 3.4rem;
+}
+.ol-ol{
+    list-style: none;
+}
+.ol-ol a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.orderrd{
+   line-height: 40px;
+}
+.orderrd h2{
+    margin-left: 40px;
+    align-items: center;
+}
+/* THE END SECTION  */
+.end-footer{
+    display: flex;
+    margin-left: 300px;
+}
+.ul-footer{
+    display: flex;
+    gap: 5rem;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.ul-footer a{
+    text-decoration: none;
+    color: black;
+}

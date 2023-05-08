@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* the header starts here. It comprises nav bars  */
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgoldenrodyellow;
+    box-shadow: 1px 1px 1px 0.1px rgb(205, 205, 196);
+}
+.gmail{
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+}
+#gmail{
+    width: 70px;
+    height: 40px;
+}
+#mainGmail{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Overpass', sans-serif;
+}
+.ul-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.ul-header a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#signin{
+    width: 80px;
+    height: 40px;
+    color: blue;
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px;
+}
+#create-an-account{
+    width: 170px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+/* FIRST SECTION ON THE FRRONT PAGE */
+.first-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+     gap: 8rem; 
+     margin-top: 2rem;
+}
+.the-first-segment{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+.h1{
+    font-size: 73px;
+    font-weight: lighter;
+}
+.create{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.create a{
+    text-decoration: none;
+    font: 21px;
+    color: darkblue;
+}
+#btn-first-section{
+    width: 170px;
+    height: 40px;
+    background: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-first-section{
+    width: 60rem;
+}
+
+@media screen and (min-width: 1201px) {
+    .header{
+        display: flex;
+        justify-content: space-around;
+        /* gap: 8rem; */
+        width: auto;
+        border: 1px solid lightgoldenrodyellow;
+        box-shadow: 1px 1px 1px 0.1px rgb(205, 205, 196);
+    }
+    .gmail{
+        display: flex;
+        align-items: center;
+        line-height: 0px;
+    }
+    #gmail{
+        width: 70px;
+        height: 40px;
+    }
+    #mainGmail{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: 'Overpass', sans-serif;
+    }
+    .ul-header{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+    }
+    .ul-header a{
+        text-decoration: none;
+        font-size: large;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #signin{
+        width: 80px;
+        height: 40px;
+        color: blue;
+        text-decoration: none;
+        font-size: large;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 3px;
+    }
+    #create-an-account{
+        width: 170px;
+        height: 40px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 3px;
+    }
+    /* FIRST SECTION ON THE FRRONT PAGE */
+.first-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+     gap: 8rem;  
+     margin-top: 2rem;
+}
+.the-first-segment{
+    font-family: 'Overpass', sans-serif;
+    /* margin-top: 5rem; */
+    /* margin-left: 8rem; */
+}
+.h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.create{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.create a{
+    text-decoration: none;
+    font: 15px;
+    color: darkblue;
+}
+#btn-first-section{
+    width: 170px;
+    height: 40px;
+    background: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-first-section{
+    width: 45rem;
+}
+/* SECOND SECTION OF THE FRONT PAGE */
+.second{
+    display: flex;
+    justify-content: center; 
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem; 
+     width: auto;
+}
+.paragraph-section{
+    width: 200px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph-section p{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+.paragraph-section h1{
+    font-size: 20px;
+}
+#img-section{
+    max-width: 45rem;
+}
+/* THIRD SECTION OF THE HOME PAGE */
+.third-section-on-the-front-page{
+    /* margin-top: -3rem; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    gap: 3rem;
+}
+#img-third{
+    max-width: 45rem;
+}
+.the-secon-segment-on-the-third-section{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the-secon-segment-on-the-third-section p{
+    font-size: 15px;
+}
+.the-secon-segment-on-the-third-section h1{
+    font-size: 20px;
+}
+.the-secon-segment-on-the-third-section h3{
+    font-size: 18px;
+}
+/* FOURTH SECTION ON THE FRONT PAGE */
+.fourth-section-on-the-front-page{
+    background-color: rgb(232, 237, 239);
+    display: flex;
+    justify-content: center;
+    /* gap: 7rem; */
+    line-height: 15px;
+    width: auto;
+}
+.one1 p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one1 h3{
+    font-size: 15px;
+}
+/* FIFTH SECTION ON THE FRONT PAGE */
+.fifth-section-on-the-front-page{
+    /* margin-top: 8rem; */
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+}
+.fifth-section-on-the-front-page a{
+    text-decoration: none;
+}
+.pics p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pics h3{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* SIXTH SECTION OF THE FRONT PAGE */
+.six-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 237, 239);
+    width: auto;
+
+}
+.find1 h3, .help h3, .find2 h3{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.find1 p, .find2 p, .help p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.help{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 3px;
+    line-height: 20px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+details{
+    font-size: 15px;
+}
+details a{
+    text-decoration: none;
+}
+/* THE LAST SECTION OF THE FRONT PAGE */
+.the-last-section{
+    /* margin-top: 4rem; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    
+}
+.img-text-first h2{
+    font-size: 17px;
+}
+.img-text-first p{
+    font-size: 15px;
+}
+.gmailIcon{
+    width: auto;
+}
+.ul-btn-a{
+    /* padding: 15px; */
+    line-height: 20px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul-btn-a a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.just-create-and-for-work-btn{
+    display: grid;
+    justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.just-create{
+    width: 160px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+}
+.lastImg{
+    width: 90rem;
+}
+
+}
+@media screen and (max-width: 1200px) {
+    header{
+        width: auto;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+         width: auto;
+         margin-left: 70px;
+         margin-right: 70px;
+        border: 1px solid lightgoldenrodyellow;
+        box-shadow: 1px 1px 1px 0.1px rgb(205, 205, 196);
+    }
+    .gmail{
+        display: flex;
+        align-items: center;
+        line-height: 0px;
+    }
+    #gmail{
+        width: 70px;
+        height: 40px;
+    }
+    #mainGmail{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: 'Overpass', sans-serif;
+    }
+    .ul-header{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+    }
+    .ul-header a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #signin{
+        width: 60px;
+        height: 40px;
+        color: blue;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 3px;
+    }
+    #create-an-account{
+        width: 140px;
+        height: 40px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 3px;
+    }
+       /* FIRST SECTION ON THE FRRONT PAGE */
+.first-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+     gap: 2rem;  
+     margin-top: 2rem;
+}
+.the-first-segment{
+    font-family: 'Overpass', sans-serif;
+}
+.h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.create{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.create a{
+    text-decoration: none;
+    font-size: 15px;
+    color: darkblue;
+}
+#btn-first-section{
+    width: 170px;
+    height: 40px;
+    background: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-first-section{
+    width: 35rem;
+}
+/* SECOND SECTION OF THE FRONT PAGE */
+.second{
+    display: flex;
+    justify-content: center; 
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem; 
+     width: auto;
+}
+.paragraph-section{
+    width: 300px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph-section p{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    line-height: 17px;
+}
+.paragraph-section h1{
+    font-size: 20px;
+}
+#img-section{
+    max-width: 35rem;
+}
+/* THIRD SECTION OF THE HOME PAGE */
+.third-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+     gap: 1rem; 
+    line-height: 17px;
+    margin-bottom: 3rem;
+}
+#img-third{
+    max-width: 35rem;
+}
+.the-secon-segment-on-the-third-section{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the-secon-segment-on-the-third-section p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the-secon-segment-on-the-third-section h1{
+    font-size: 20px;
+}
+.the-secon-segment-on-the-third-section h3{
+    font-size: 18px;
+}
+/* FOURTH SECTION ON THE FRONT PAGE */
+.fourth-section-on-the-front-page{
+    background-color: rgb(232, 237, 239);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    /* margin-top: 10rem; */
+}
+.one1 p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+.one1 h3{
+    font-size: 15px;
+    line-height: 18px;
+}
+/* FIFTH SECTION ON THE FRONT PAGE */
+.fifth-section-on-the-front-page{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+.fifth-section-on-the-front-page a{
+    text-decoration: none;
+}
+.pics p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pics h3{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* SIXTH SECTION OF THE FRONT PAGE */
+.six-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 237, 239);
+    width: auto;
+
+}
+.find1 h3, .help h3, .find2 h3{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.find1 p, .find2 p, .help p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.help{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 3px;
+    line-height: 20px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+details{
+    font-size: 15px;
+}
+details a{
+    text-decoration: none;
+}
+/* THE LAST SECTION OF THE FRONT PAGE */
+.the-last-section{
+    /* margin-top: 4rem; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    
+}
+.img-text-first h2{
+    font-size: 17px;
+}
+.img-text-first p{
+    font-size: 15px;
+}
+.gmailIcon{
+    width: auto;
+}
+.ul-btn-a{
+    /* padding: 15px; */
+    line-height: 20px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul-btn-a a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.just-create-and-for-work-btn{
+    display: grid;
+    justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.just-create{
+    width: 160px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+}
+.lastImg{
+    width: 60rem;
+}
+}
+@media screen and (max-width:420px) {
+    header{
+        width: auto;
+        border: 1px solid lightgoldenrodyellow;
+        box-shadow: 1px 1px 1px 0.1px rgb(205, 205, 196);
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gmail{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        line-height: 20px;
+    }
+    #gmail{
+        width: 50px;
+        height: 30px;
+    }
+    #mainGmail{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: 'Overpass', sans-serif;
+    }
+    .ul-header{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+    }
+    .ul-header a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #signin{
+        width: 60px;
+        height: 30px;
+        color: blue;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 3px;
+    }
+    #create-an-account{
+        width: 110px;
+        height: 30px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 3px;
+    }
+     /* FIRST SECTION ON THE FRRONT PAGE */
+.first-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: auto;
+     gap: 2rem;   
+     margin-top: 2rem;
+}
+.the-first-segment{
+    font-family: 'Overpass', sans-serif;
+    /* width: 200px; */
+}
+.h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.create{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.create a{
+    text-decoration: none;
+    font: 10px;
+    color: darkblue;
+}
+#btn-first-section{
+    width: 120px;
+    height: 30px;
+    background: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-first-section{
+    width: 10rem;
+}
+/* SECOND SECTION OF THE FRONT PAGE */
+.second{
+    display: flex;
+    justify-content: center; 
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem; 
+     width: auto;
+     margin-bottom: 3rem;
+}
+.paragraph-section{
+    width: 200px;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph-section p{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+.paragraph-section h1{
+    font-size: 15px;
+}
+#img-section{
+    max-width: 15rem;
+}
+/* THIRD SECTION OF THE HOME PAGE */
+.third-section-on-the-front-page{
+    /* margin-top: -3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+#img-third{
+    max-width: 15rem;
+}
+.the-secon-segment-on-the-third-section{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.the-secon-segment-on-the-third-section p{
+    font-size: 10px;
+    width: 200px;
+}
+.the-secon-segment-on-the-third-section h1{
+    font-size: 15px;
+}
+.the-secon-segment-on-the-third-section h3{
+    font-size: 13px;
+}
+/* FOURTH SECTION ON THE FRONT PAGE */
+.fourth-section-on-the-front-page{
+    background-color: rgb(232, 237, 239);
+    display: flex;
+    justify-content: center;
+    line-height: 15px;
+    width: auto;
+}
+.one1 p{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+.one1 h3{
+    font-size: 10px;
+}
+/* FIFTH SECTION ON THE FRONT PAGE */
+.fifth-section-on-the-front-page{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+.fifth-section-on-the-front-page a{
+    text-decoration: none;
+}
+.pics p{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pics img{
+    width: 200px;
+}
+.pics h3{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* SIXTH SECTION OF THE FRONT PAGE */
+.six-section-on-the-front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 237, 239);
+    width: auto;
+
+}
+.find1 h3, .help h3, .find2 h3{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.find1 p, .find2 p, .help p{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+.help{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 3px;
+    line-height: 20px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+details{
+    font-size: 10px;
+}
+details a{
+    text-decoration: none;
+}
+/* THE LAST SECTION OF THE FRONT PAGE */
+.the-last-section{
+    /* margin-top: 4rem; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    
+}
+.img-text-first h2{
+    font-size: 17px;
+}
+.img-text-first p{
+    font-size: 15px;
+}
+.gmailIcon{
+    width: auto;
+}
+.ul-btn-a{
+    /* padding: 15px; */
+    line-height: 20px;
+    list-style: none;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul-btn-a a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.just-create-and-for-work-btn{
+    display: grid;
+    justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.just-create{
+    width: 120px;
+    height: 30px;
+    background-color: darkblue;
+    color: white;
+}
+.lastImg{
+    max-width: 20rem;
+}
+}
+/* SECOND SECTION OF THE FRONT PAGE */
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+}
+.paragraph-section{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-section{
+    width: 60rem;
+}
+/* THIRD SECTION OF THE HOME PAGE */
+.third-section-on-the-front-page{
+    margin-top: -3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img-third{
+    width: 60rem;
+}
+.the-secon-segment-on-the-third-section{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* FOURTH SECTION ON THE FRONT PAGE */
+.fourth-section-on-the-front-page{
+    margin-top: -4rem;
+    background-color: rgb(232, 237, 239);
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    line-height: 45px;
+}
+.one{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* FIFTH SECTION ON THE FRONT PAGE */
+.fifth-section-on-the-front-page{
+    margin-top: 8rem;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifth-section-on-the-front-page a{
+    text-decoration: none;
+}
+/* SIXTH SECTION OF THE FRONT PAGE */
+.six-section-on-the-front-page{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+    background-color: rgb(232, 237, 239);
+    padding: 10px;
+
+}
+.find, .help, .find2{
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.help{
+    border: 1px solid whitesmoke;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    line-height: 30px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+details a{
+    text-decoration: none;
+}
+/* THE LAST SECTION OF THE FRONT PAGE */
+.the-last-section{
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.gmailIcon{
+    width: 100px;
+}
+.ul-btn-a{
+    padding: 15px;
+    line-height: 50px;
+    list-style: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul-btn-a a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.just-create-and-for-work-btn{
+    display: grid;
+    justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.just-create{
+    width: 160px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+}
+.lastImg{
+    width: 70rem;
+}
