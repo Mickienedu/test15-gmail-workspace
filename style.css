@@ -236,7 +236,7 @@ details a{
     .header{
         display: flex;
         justify-content: start;
-        gap: 1rem;
+        gap: 2rem;
         width: auto;
     }
     .gmail{
@@ -247,6 +247,10 @@ details a{
         align-items: center;
         /* text-align: center; */
     }
+    #create-an-account{
+        width: 120px;
+        font-size: 12px;
+    }
     /* FIRST SECTION OF THE FRONT PAGE */
     .first-section-on-the-front-page{
         display: grid;
@@ -255,18 +259,18 @@ details a{
         width: auto;
     }
     .the-first-segment h1{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
     .the-first-segment p{
-        font-size: 18px;
-        width: auto;
+        font-size: 15px;
+        width: 250px;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
     }
     #img-first-section{
-        width: 370px;
+        width: 300px;
     }
     /* THE SECOND SECTION */
     .second{
@@ -279,18 +283,18 @@ details a{
     }
     .paragraph-section h1{
         width: auto;
-        font-size: 22px;
+        font-size: 15px;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
     .paragraph-section p{
-        width: 350px;
-        font-size: 18px;
+        width: 250px;
+        font-size: 12px;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
     }
     #img-section{
-        width: 480px;
+        width: 400px;
     }
     /* THE THIRD SECTION */
     .third-section-on-the-front-page{
@@ -300,7 +304,7 @@ details a{
         width: auto;
     }
     #img-third{
-        width: 350px;
+        width: 300px;
         margin-bottom: -3rem;
     }
     .the-secon-segment-on-the-third-section{
@@ -308,30 +312,35 @@ details a{
     }
     .the-secon-segment-on-the-third-section h1{
         margin-bottom: -0.9rem;
-        font-size: 22px;
+        font-size: 15px;
          font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
     }
     .the-secon-segment-on-the-third-section p{
-        width: 370px;
-        font-size: 18px;
+        width: 250px;
+        font-size: 12px;
          font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
     }
     /* THE FOURTH SECTION STARTS HERE */
     .fourth-section-on-the-front-page{
         display: grid;
-        justify-content: start;
+        justify-content: center;
         gap: 0.5rem;
     }
     .one1{
         display: grid;
         line-height: 20px;
+
         text-align: center;
-        width: 350px;
+        width: 250px;
     }
     .one1 h3{
         margin-bottom: -0.5rem;
+        font-size: 15px;
+    }
+    .one1 p{
+        font-size: 12px;
     }
     /* THE FIFTH SECTION */
     .fifth-section-on-the-front-page{
@@ -341,15 +350,15 @@ details a{
         /* line-height: 20px; */
     }
     .pics img{
-        width: 300px;
+        width: 200px;
     }
     .pics h2{
-        font-size: 22px;
-        width: auto;
+        font-size: 15px;
+        width: 250px;
     }
     .pics p{
-        width: 350px;
-        font-size: 18px;
+        width: 250px;
+        font-size: 12px;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -363,15 +372,19 @@ details a{
         width: auto;
     }
     .find1 h3{
-        font-size: 22px;
+        font-size: 15px;
         text-align: center;
     }
     .help{
         line-height: 20px;
     }
+    .help p{
+        font-size: 12px;
+        width: 200px;
+    }
     .help h3{
         margin-bottom: -9px;
-        font-size: 22px;
+        font-size: 15px;
     }
     .find2{
         margin-top: -10rem;
@@ -734,6 +747,195 @@ details a{
     .lastImg{
         width: 40rem;
   
+}
+@media screen and (min-width: 1000px) {
+    .header{
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+    }
+    .gamil{
+        display: flex;
+    }
+    .ul-header{
+        display: flex;
+        gap: 1rem;
+    }
+    /* first */
+    .first-section-on-the-front-page{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        align-items: center;
+        /* gap: 2rem; */
+        margin-top: -2rem;
+        width: auto;
+    }
+    .the-first-segment h1{
+        font-size: 20px;
+    }
+    .the-first-segment p{
+        width: 400px;
+        font-size: 12px;
+    }
+    #img-first-section{
+        width: 250px;
+    }
+    #btn-first-section{
+        width: 120px;
+        font-size: 12px;
+    }
+    /* second section */
+    /* THE SECOND SECTION */
+    .second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        width: auto;
+        margin-top: 2rem;
+    }
+    .paragraph-section{
+        width: auto;
+    }
+    .paragraph-section h1{
+        width: 250px;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .paragraph-section p{
+        width: 250px;
+        /* margin-left: 30px; */
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #img-section{
+        width: 450px;
+    }
+    /* THE THIRD SECTION */
+    .third-section-on-the-front-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin-top: 1rem;
+        gap: 3rem;
+    }
+    #img-third{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .the-secon-segment-on-the-third-section{
+        margin-bottom: 4rem;
+    }
+    .the-secon-segment-on-the-third-section h1{
+        margin-bottom: -0.9rem;
+        font-size: 15px;
+         font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .the-secon-segment-on-the-third-section p{
+        width: 300px;
+        font-size: 12px;
+         font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* THE FOURTH SECTION STARTS HERE */
+    .fourth-section-on-the-front-page{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .one1{
+        display: grid;
+        line-height: 20px;
+        text-align: center;
+        width: 200px;
+    }
+    .one1 h3{
+        margin-bottom: -0.5rem;
+    }
+    .one1 p{
+        font-size: 12px;
+        width: 200px;
+    }
+    /* THE FIFTH SECTION */
+    .fifth-section-on-the-front-page{
+        display: grid;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        width: auto;
+        margin-top: 5px;
+        /* line-height: 20px; */
+    }
+    .pics{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .pics img{
+        width: 400px;
+    }
+    .pics h2{
+        font-size: 15px;
+        width: auto;
+    }
+    .pics p{
+        margin-left: 50px;
+        width: 300px;
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pics a{
+        font-size: 12px;
+    }
+    /* SIXTH SECTION */
+    .six-section-on-the-front-page{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .find1{
+        width: 300px;
+    }
+    .find1 h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    .help{
+        line-height: 20px;
+        width: 300px;
+        margin-bottom: -8rem;
+    }
+    .help h3{
+        /* margin-bottom: -9px; */
+        font-size: 15px;
+    }
+    .p p{
+        font-size: 12px;
+        width: 300px;
+        /* margin-top: -2rem; */
+
+    }
+    .find2{
+        /* margin-top: -10rem; */
+        width: auto;
+    }
+    details{
+        font-size: 12px;
+        width: auto;
+    }
+    .lastImg{
+        width: 50rem;
+  
+}
 }
 
 }
