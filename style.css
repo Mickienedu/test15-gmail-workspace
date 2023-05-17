@@ -254,7 +254,7 @@ details a{
     /* FIRST SECTION OF THE FRONT PAGE */
     .first-section-on-the-front-page{
         display: grid;
-        justify-content: start;
+        justify-content: center;
         margin-top: -3rem;
         width: auto;
     }
@@ -275,11 +275,14 @@ details a{
     /* THE SECOND SECTION */
     .second{
         display: grid;
-        justify-content: start;
+        justify-content: center;
         width: auto;
     }
     .paragraph-section{
-        width: auto;
+        width: 250px;
+        display: grid;
+        justify-content: center;
+        margin-left: 50px;
     }
     .paragraph-section h1{
         width: auto;
@@ -295,6 +298,7 @@ details a{
     }
     #img-section{
         width: 400px;
+        margin-left: 10px;
     }
     /* THE THIRD SECTION */
     .third-section-on-the-front-page{
@@ -309,6 +313,8 @@ details a{
     }
     .the-secon-segment-on-the-third-section{
         margin-bottom: 4rem;
+        display: grid;
+        justify-content: center;
     }
     .the-secon-segment-on-the-third-section h1{
         margin-bottom: -0.9rem;
