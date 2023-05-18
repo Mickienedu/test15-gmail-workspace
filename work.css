@@ -6,6 +6,9 @@ body{
     background-color: rgb(248, 248, 248);
 
 } 
+#google-logo{
+    width: 200px;
+}
 .heading{
     display: flex;
     justify-content: space-between;
@@ -88,6 +91,14 @@ body{
     margin: -32px;
     
 }
+#first-img{
+    width: 700px;
+     height: 400px;
+}
+#first-img2{
+    width: 100px; 
+    height: 70px;
+}
 .gmailh2{
     font-size: 35px;
     font-weight: lighter;
@@ -119,6 +130,9 @@ body{
 .company a{
     text-decoration: none;
 }
+#img-second{
+    width: 600px;
+}
 /* THE THIRD SECTION STARTS HERE */
 .third-section-robust{
     display: flex;
@@ -127,6 +141,9 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+#img-third{
+    width: 600px;
+}
 /* FOURTH SECTION STARTS HERE */
 .fourth-section-smart-suggestion{
     background: white;
@@ -134,6 +151,9 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
+}
+#img-fourth{
+    width: 600px;
 }
 /* FIFTH SECTION STARTS HERE */
 .fifth-threat{
@@ -145,6 +165,10 @@ body{
 }
 .second-para a{
     text-decoration: none;
+}
+#img-fifth{
+    width: 300px; 
+    height: 600px;
 }
 /* SIXTH SECTION STARTS HERE */
 .sixth-section-works{
@@ -233,9 +257,7 @@ body{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* .checkbox{
-    
-} */
+
 .alone-p{
     
     padding: 10px;
@@ -255,8 +277,6 @@ body{
     margin-right: -35rem;
 }
 #signUp{
-    /* display: flex;
-    justify-content: center; */
     width: 120px;
     height: 50px;
     font-size: large;
@@ -334,3 +354,387 @@ body{
     text-decoration: none;
     color: black;
 }
+  /* MEDIA QUERY STARTS HERE */
+  @media screen and (max-width: 420px) {
+    #google-logo{
+        width: 50px;
+        height: 20px;
+    }
+    header{
+        width: auto;
+    }
+    .heading{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        /* line-height: 0px; */
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px  rgb(226, 208, 208);
+    
+    }
+    .goog{
+        display: grid;
+        align-items: center;
+        /* line-height: 0px; */
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .goog-name{
+        display: flex;
+        align-items: center;
+        /* line-height: opx; */
+    }
+    .goog-name h2{
+        font-size: 12px;
+    }
+    .ul-work{
+        display: grid;
+        align-items: center;
+        /* gap: 2rem; */
+        list-style: none;
+        width: auto;
+        gap: 1.5rem;
+    }
+    .ul-work a{
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #select-option{
+        width: 80px;
+        height: 30px;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #btn-sales{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        border: 1px solid azure;
+        border-radius: 3px;
+    }
+    #btn-start{
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 107, 139);
+        color: white;
+        border-radius: 3px;
+    
+    }
+    /* FIRST SECTION */
+      .one-section{
+        display: grid;
+        width: auto;
+        justify-content: center;
+
+      }
+      #first-img{
+        width: 200px; 
+        height: 100px;
+      }
+      #first-img2{
+        width: 80px;
+         height: 50px;
+      }
+      .gmailh2{
+        font-size: 20px;
+        font-weight: lighter;
+        margin-left: -1rem;
+    }
+    .first-big-font-p{
+        width: 200px;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .second-para{
+        width: 200px;
+        line-height: 20px;
+        word-spacing: 0px;
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* THE SECOND SECTION STARTS HERE */
+.second-section-your-company{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 1px;
+}
+.company a{
+    text-decoration: none;
+}
+  #img-second{
+    width: 200px;
+}  
+/* THE THIRD SECTION STARTS HERE */
+.third-section-robust{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#img-third{
+    width: 200px;
+}
+/* FOURTH SECTION STARTS HERE */
+.fourth-section-smart-suggestion{
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+#img-fourth{
+    width: 200px;
+}
+/* FIFTH SECTION STARTS HERE */
+.fifth-threat{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.second-para a{
+    text-decoration: none;
+}
+#img-fifth{
+    width: 100px; 
+    height: 200px;
+}
+/* SIXTH SECTION STARTS HERE */
+.sixth-section-works{
+    display: grid;
+    justify-content: center;
+    gap: 0.3rem;
+    background: white;
+    padding-bottom: 0.2px;
+    padding-top: 0.2px;
+}
+.texxt1{
+    font-size: 20px;
+    width: 200px;
+}
+.second-para1{
+    margin-top: -0.7rem;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* SEVENTH SECTION STARTS HERE */
+.seventh{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.seventh h1{
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: -1rem;
+}
+.texxt1{
+    font-size: 17px;
+    
+}
+.question-container{
+    display: grid;
+    justify-content: center;
+    gap: 0.2rem;
+}
+.question a{
+    text-decoration: none;
+}
+/* START TODAY SECTION */
+.start-easy{
+    padding-top: 1px;
+    padding-bottom: 1px;
+     display: grid;
+     width: 200px;
+     justify-content: center;
+     font-size: 12px;
+     font-weight: lighter;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 90px;
+ }
+ 
+ #btn-start1{
+     display: grid;
+     justify-content: center;
+     
+ }
+ /* ANOTHER SECTION NAMED 'JOIN' STARTS HERE */
+.join{
+    margin-top: 0.1rem;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.join h1{
+    font-size: 20px;
+    width: 200px;
+   margin-left: 30px;
+}
+.form-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.input-email{
+    width: 120px;
+    height: 28px;
+    border: 3px solid rgb(170, 179, 187);
+    background-color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#select{
+    width: 120px;
+    height: 35px;
+    border: 3px solid rgb(170, 179, 187);
+    background-color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox-paragraphs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox input{
+    width: 30px;
+    height: 20px;
+}
+.alone-p{
+    padding: 1px;
+    margin-top: 10px;
+    width: 200px;
+}
+.alone-paragragh{
+    display: grid;
+    text-align: start;
+    justify-content: center;
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alone-paragragh a{
+    text-decoration: none;
+}
+.btnb{
+    margin-right: -3rem;
+}
+#signUp{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(199, 213, 225);
+    outline: none;
+    background: white;
+
+}
+/* FOOTER STARTS HERE */
+.the-footer{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    width: 200px;
+}
+.our-blog{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.our-blog h2{
+    font-size: 20px;
+}
+
+#fafaSearch{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fafafa{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    border: 1px solid white;
+}
+/* ANOTHER SECTION ON THE FOOTER BEGINS HERE */
+.mainFooter{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+}
+.ol-ol{
+    list-style: none;
+}
+.ol-ol a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.orderrd{
+   line-height: 20px;
+}
+.orderrd h2{
+    margin-left: 40px;
+    align-items: center;
+    width: 200px;
+}
+/* THE END SECTION  */
+.end-footer{
+    display: flex;
+    margin-left: 1px;
+}
+.ul-footer{
+    display: flex;
+    gap: 2rem;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.ul-footer a{
+    text-decoration: none;
+    color: black;
+}
+  }
