@@ -39,6 +39,7 @@ body{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #signin{
     width: 80px;
     height: 40px;
@@ -59,6 +60,9 @@ body{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 3px;
+}
+#create-an-account:hover, #signin:hover{
+    background-color: red;
 }
 /* FIRST SECTION ON THE FRRONT PAGE */
 .first-section-on-the-front-page{
@@ -247,8 +251,17 @@ details a{
         align-items: center;
         /* text-align: center; */
     }
+    .ul-header li a{
+        font-size: 14px;
+        cursor: pointer;
+    }
+    #signin{
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
     #create-an-account{
-        width: 120px;
+        width: 130px;
         font-size: 12px;
     }
     /* FIRST SECTION OF THE FRONT PAGE */
@@ -271,6 +284,12 @@ details a{
     }
     #img-first-section{
         width: 300px;
+    }
+    #btn-first-section{
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 130px;
     }
     /* THE SECOND SECTION */
     .second{
